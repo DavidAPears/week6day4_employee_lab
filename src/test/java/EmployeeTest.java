@@ -14,8 +14,9 @@ public class EmployeeTest {
         assertEquals(28100.00, employee.raiseSalary(100.00), 0.01 );
     }
 
-//    @Test
-//    public void payBonus(){
-//        assertEquals();
-//    }
+    @Test
+    public void payBonus(){
+        employee = new Manager("David", "JN572843", 28000, "tech");
+        assertEquals(280, employee.payBonus(), 0.01);
+    }
 }
