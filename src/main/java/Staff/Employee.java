@@ -16,6 +16,13 @@ public abstract class Employee {
         return this.name;
     }
 
+//    throw new illegal argument exception?
+    public void setName(String name){
+        if (name != null) {
+            this.name = name;
+        }
+    }
+
     public String getNin(){
         return this.nin;
     }
@@ -25,6 +32,7 @@ public abstract class Employee {
     }
 
     public double raiseSalary(double salaryIncrease){
+        if (salaryIncrease < 0) throw new IllegalArgumentException("Cannot increase salary by less than 0");
         return this.salary += salaryIncrease;
     }
 

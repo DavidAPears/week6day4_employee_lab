@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eef2861-21c0-4e22-90c5-dbad858fd5d8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Staff/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Staff/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Staff/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/techStaff/DatabaseAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/techStaff/DatabaseAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/techStaff/Developer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/techStaff/Developer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/EmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/EmployeeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ManagerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Management/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/Management/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Management/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/Management/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,11 +37,29 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Staff/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="328">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EmployeeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DirectorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
+            <state relative-caret-position="285">
               <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -419,15 +431,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/java/Staff/Manager.java" />
         <option value="$PROJECT_DIR$/src/test/java/ManagerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/techStaff/DatabaseAdmin.java" />
         <option value="$PROJECT_DIR$/src/main/java/techStaff/Developer.java" />
         <option value="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DeveloperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Staff/Management/Director.java" />
         <option value="$PROJECT_DIR$/src/main/java/Staff/Management/Manager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Staff/Employee.java" />
         <option value="$PROJECT_DIR$/src/test/java/DirectorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Staff/Employee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EmployeeTest.java" />
       </list>
     </option>
   </component>
@@ -530,60 +542,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DirectorTest">
+  <component name="RunManager" selected="JUnit.EmployeeTest.mustHaveName">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DatabaseAdminTest.payBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="employeelab_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
-      <option name="METHOD_NAME" value="payBonus" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DeveloperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="employeelab_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DeveloperTest.raiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="employeelab_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
-      <option name="METHOD_NAME" value="raiseSalary" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="DirectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="employeelab_test" />
@@ -609,6 +570,57 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DirectorTest" />
       <option name="METHOD_NAME" value="hasBudget" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EmployeeTest.cannotRaiseSalaryByNegativeAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employeelab_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="METHOD_NAME" value="cannotRaiseSalaryByNegativeAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EmployeeTest.mustHaveName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employeelab_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="METHOD_NAME" value="mustHaveName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EmployeeTest.raiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employeelab_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="METHOD_NAME" value="raiseSalary" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -658,19 +670,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DatabaseAdminTest.payBonus" />
-      <item itemvalue="JUnit.DeveloperTest.raiseSalary" />
-      <item itemvalue="JUnit.DeveloperTest" />
       <item itemvalue="JUnit.DirectorTest.hasBudget" />
       <item itemvalue="JUnit.DirectorTest" />
+      <item itemvalue="JUnit.EmployeeTest.raiseSalary" />
+      <item itemvalue="JUnit.EmployeeTest.cannotRaiseSalaryByNegativeAmount" />
+      <item itemvalue="JUnit.EmployeeTest.mustHaveName" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeeTest.mustHaveName" />
+        <item itemvalue="JUnit.EmployeeTest.raiseSalary" />
+        <item itemvalue="JUnit.EmployeeTest.cannotRaiseSalaryByNegativeAmount" />
         <item itemvalue="JUnit.DirectorTest" />
         <item itemvalue="JUnit.DirectorTest.hasBudget" />
-        <item itemvalue="JUnit.DeveloperTest" />
-        <item itemvalue="JUnit.DeveloperTest.raiseSalary" />
-        <item itemvalue="JUnit.DatabaseAdminTest.payBonus" />
       </list>
     </recent_temporary>
   </component>
@@ -688,35 +700,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmployeeTest_payBonus - 2018.06.28 at 14h 42m 53s.xml">
-      <configuration name="EmployeeTest.payBonus" configurationId="JUnit" />
+    <history-entry file="EmployeeTest_raiseSalary - 2018.06.28 at 15h 25m 20s.xml">
+      <configuration name="EmployeeTest.raiseSalary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTest_payBonus - 2018.06.28 at 14h 44m 02s.xml">
-      <configuration name="EmployeeTest.payBonus" configurationId="JUnit" />
+    <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 33m 45s.xml">
+      <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseAdminTest_raiseSalary - 2018.06.28 at 14h 56m 26s.xml">
-      <configuration name="DatabaseAdminTest.raiseSalary" configurationId="JUnit" />
+    <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 34m 45s.xml">
+      <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseAdminTest_raiseSalary - 2018.06.28 at 14h 56m 47s.xml">
-      <configuration name="DatabaseAdminTest.raiseSalary" configurationId="JUnit" />
+    <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 37m 17s.xml">
+      <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseAdminTest_payBonus - 2018.06.28 at 14h 58m 18s.xml">
-      <configuration name="DatabaseAdminTest.payBonus" configurationId="JUnit" />
+    <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 38m 02s.xml">
+      <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseAdminTest_payBonus - 2018.06.28 at 14h 58m 53s.xml">
-      <configuration name="DatabaseAdminTest.payBonus" configurationId="JUnit" />
+    <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 38m 29s.xml">
+      <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseAdminTest_payBonus - 2018.06.28 at 14h 59m 05s.xml">
-      <configuration name="DatabaseAdminTest.payBonus" configurationId="JUnit" />
+    <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 39m 35s.xml">
+      <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeveloperTest - 2018.06.28 at 15h 02m 23s.xml">
-      <configuration name="DeveloperTest" configurationId="JUnit" />
+    <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 40m 14s.xml">
+      <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeveloperTest - 2018.06.28 at 15h 02m 41s.xml">
-      <configuration name="DeveloperTest" configurationId="JUnit" />
+    <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 40m 33s.xml">
+      <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DirectorTest - 2018.06.28 at 15h 17m 48s.xml">
-      <configuration name="DirectorTest" configurationId="JUnit" />
+    <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 40m 56s.xml">
+      <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -731,12 +743,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32965517" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20678514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20678514" />
       <window_info anchor="bottom" id="Build" weight="0.32965517" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -788,20 +800,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/EmployeeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -864,17 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Staff/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/techStaff/DatabaseAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -898,7 +889,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
+        <state relative-caret-position="285">
           <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -906,6 +897,33 @@
             <element signature="e#171#172#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
             <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Staff/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
