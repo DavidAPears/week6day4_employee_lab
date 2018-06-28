@@ -17,4 +17,6 @@ public class ManagerTest {
     public void hasDeptName(){
         assertEquals("tech", manager.getDeptName());
     }
+
+//
 }
