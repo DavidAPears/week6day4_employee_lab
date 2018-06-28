@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eef2861-21c0-4e22-90c5-dbad858fd5d8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Staff/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Staff/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/EmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/EmployeeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Management/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/Management/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DirectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,8 +34,8 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Staff/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="329">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="33" />
               <folding>
                 <element signature="e#411#412#0" expanded="true" />
                 <element signature="e#443#444#0" expanded="true" />
@@ -53,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmployeeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EmployeeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
@@ -68,20 +65,22 @@
       <file leaf-file-name="Director.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Staff/Management/Director.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="358">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#274#275#0" expanded="true" />
                 <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DirectorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="291">
               <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -435,11 +434,11 @@
         <option value="$PROJECT_DIR$/src/main/java/techStaff/Developer.java" />
         <option value="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DeveloperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Staff/Management/Director.java" />
         <option value="$PROJECT_DIR$/src/main/java/Staff/Management/Manager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DirectorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Staff/Employee.java" />
         <option value="$PROJECT_DIR$/src/test/java/EmployeeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Staff/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Staff/Management/Director.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DirectorTest.java" />
       </list>
     </option>
   </component>
@@ -542,7 +541,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest.mustHaveName">
+  <component name="RunManager" selected="JUnit.DirectorTest.payBonus">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -563,13 +562,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DirectorTest.hasBudget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest.payBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="employeelab_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DirectorTest" />
-      <option name="METHOD_NAME" value="hasBudget" />
+      <option name="METHOD_NAME" value="payBonus" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -670,19 +669,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DirectorTest.hasBudget" />
       <item itemvalue="JUnit.DirectorTest" />
       <item itemvalue="JUnit.EmployeeTest.raiseSalary" />
       <item itemvalue="JUnit.EmployeeTest.cannotRaiseSalaryByNegativeAmount" />
       <item itemvalue="JUnit.EmployeeTest.mustHaveName" />
+      <item itemvalue="JUnit.DirectorTest.payBonus" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DirectorTest.payBonus" />
         <item itemvalue="JUnit.EmployeeTest.mustHaveName" />
         <item itemvalue="JUnit.EmployeeTest.raiseSalary" />
         <item itemvalue="JUnit.EmployeeTest.cannotRaiseSalaryByNegativeAmount" />
         <item itemvalue="JUnit.DirectorTest" />
-        <item itemvalue="JUnit.DirectorTest.hasBudget" />
       </list>
     </recent_temporary>
   </component>
@@ -700,12 +699,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmployeeTest_raiseSalary - 2018.06.28 at 15h 25m 20s.xml">
-      <configuration name="EmployeeTest.raiseSalary" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 33m 45s.xml">
-      <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 34m 45s.xml">
       <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
     </history-entry>
@@ -728,6 +721,12 @@
       <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 40m 56s.xml">
+      <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 44m 04s.xml">
+      <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeTest_mustHaveName - 2018.06.28 at 15h 45m 34s.xml">
       <configuration name="EmployeeTest.mustHaveName" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -848,17 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Staff/Management/Director.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Staff/Management/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -887,24 +875,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/EmployeeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="307">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Staff/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="329">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="33" />
           <folding>
             <element signature="e#411#412#0" expanded="true" />
             <element signature="e#443#444#0" expanded="true" />
@@ -918,12 +902,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EmployeeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Staff/Management/Director.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="358">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
           </folding>
         </state>
       </provider>
