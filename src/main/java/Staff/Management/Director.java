@@ -1,6 +1,6 @@
 package Staff.Management;
 
-public class Director {
+public class Director extends Manager {
 
     private int budget;
 
@@ -9,5 +9,8 @@ public class Director {
         this.budget = budget;
     }
 
+    public int getBudget(){
+        return this.budget;
+    }
 
 }
